@@ -166,20 +166,16 @@ timer.set_interval(animate, 50)
 &lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>平面機構模擬</title><link href="./ping-mian-ji-gou-mo-ni.html" rel="alternate"></link><published>2017-01-04T13:00:00+08:00</published><updated>2017-01-04T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2017-01-04:./ping-mian-ji-gou-mo-ni.html</id><summary type="html">&lt;p&gt;四連桿機構運動模擬:&lt;/p&gt;
 
 
+&lt;p&gt;456789
 &lt;!-- sylvester.js 為向量、矩陣與幾何程式庫 http://sylvester.jcoglan.com/ --&gt;
-
 &lt;script src="../course/w17/js/sylvester.js"&gt;&lt;/script&gt;
-
 &lt;!-- PrairieDraw.js 為延伸 sylvester.js 的 html5 canvas 繪圖應用程式庫 https://github.com/martin70/PrairieDraw.js --&gt;
-
 &lt;script src="../course/w17/js/PrairieDraw.js"&gt;&lt;/script&gt;
-
 &lt;style&gt;
 canvas {
     border: 1px solid black;
 }
-&lt;/style&gt;
-
+&lt;/style&gt;&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -764,8 +760,8 @@ document["but4"].bind("click", autoguess)
 &lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>耶誕快樂</title><link href="./ye-dan-kuai-le.html" rel="alternate"></link><published>2016-12-23T13:00:00+08:00</published><updated>2016-12-23T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2016-12-23:./ye-dan-kuai-le.html</id><summary type="html">&lt;p&gt;耶誕快樂&lt;/p&gt;
 
 
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
+&lt;p&gt;123
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
 &lt;script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
 &lt;/script&gt;
