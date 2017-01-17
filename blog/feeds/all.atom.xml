@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 計算機程式課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-01-06T13:00:00+08:00</updated><entry><title>單線旋轉動畫</title><link href="./dan-xian-xuan-zhuan-dong-hua.html" rel="alternate"></link><published>2017-01-06T13:00:00+08:00</published><updated>2017-01-06T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2017-01-06:./dan-xian-xuan-zhuan-dong-hua.html</id><summary type="html">&lt;p&gt;單線旋轉動畫:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 計算機程式課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-01-06T13:00:00+08:00</updated><entry><title>W18旋轉動畫練習</title><link href="./w18xuan-zhuan-dong-hua-lian-xi.html" rel="alternate"></link><published>2017-01-06T13:00:00+08:00</published><updated>2017-01-06T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2017-01-06:./w18xuan-zhuan-dong-hua-lian-xi.html</id><summary type="html">&lt;p&gt;單線旋轉動畫:&lt;/p&gt;
 
 
+&lt;p&gt;心得: 使用 Brython 程式下去執行 畫出直線和點 再用
+deg = math.pi/180 此指令去驅動直線轉動&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -163,19 +165,23 @@ def animate():
 
 timer.set_interval(animate, 50)
 &lt;/script&gt;
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>平面機構模擬</title><link href="./ping-mian-ji-gou-mo-ni.html" rel="alternate"></link><published>2017-01-04T13:00:00+08:00</published><updated>2017-01-04T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2017-01-04:./ping-mian-ji-gou-mo-ni.html</id><summary type="html">&lt;p&gt;四連桿機構運動模擬:&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W18連桿機構模擬練習</title><link href="./w18lian-gan-ji-gou-mo-ni-lian-xi.html" rel="alternate"></link><published>2017-01-04T13:00:00+08:00</published><updated>2017-01-04T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2017-01-04:./w18lian-gan-ji-gou-mo-ni-lian-xi.html</id><summary type="html">&lt;p&gt;四連桿機構運動模擬:&lt;/p&gt;
 
 
-&lt;p&gt;456789
 &lt;!-- sylvester.js 為向量、矩陣與幾何程式庫 http://sylvester.jcoglan.com/ --&gt;
+
 &lt;script src="../course/w17/js/sylvester.js"&gt;&lt;/script&gt;
+
 &lt;!-- PrairieDraw.js 為延伸 sylvester.js 的 html5 canvas 繪圖應用程式庫 https://github.com/martin70/PrairieDraw.js --&gt;
+
 &lt;script src="../course/w17/js/PrairieDraw.js"&gt;&lt;/script&gt;
+
 &lt;style&gt;
 canvas {
     border: 1px solid black;
 }
-&lt;/style&gt;&lt;/p&gt;
+&lt;/style&gt;
+
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -484,10 +490,10 @@ document["reverse"].bind("click", reverse)
 &lt;/script&gt;
 &lt;button id="power"&gt;啟動&lt;/button&gt;
 &lt;button id="reverse"&gt;反向&lt;/button&gt;
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>新年快樂</title><link href="./xin-nian-kuai-le.html" rel="alternate"></link><published>2016-12-30T13:00:00+08:00</published><updated>2016-12-30T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2016-12-30:./xin-nian-kuai-le.html</id><summary type="html">&lt;p&gt;2017 年元旦快樂&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>元旦練習</title><link href="./yuan-dan-lian-xi.html" rel="alternate"></link><published>2016-12-30T13:00:00+08:00</published><updated>2016-12-30T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2016-12-30:./yuan-dan-lian-xi.html</id><summary type="html">&lt;p&gt;元旦快樂&lt;/p&gt;
 
 
-&lt;p&gt;首先了解 random 亂數模組的用法&lt;/p&gt;
+&lt;p&gt;了解 random 亂數模組的用法&lt;/p&gt;
 &lt;p&gt;然後利用 random 模組產生一個介於 1-100 的整數, 列印在網頁上.&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -757,11 +763,27 @@ def autoguess(ev):
 document["but4"].bind("click", autoguess)
 &lt;/script&gt;
 &lt;button id="but4"&gt;利用程式玩猜數字&lt;/button&gt;
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>耶誕快樂</title><link href="./ye-dan-kuai-le.html" rel="alternate"></link><published>2016-12-23T13:00:00+08:00</published><updated>2016-12-23T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2016-12-23:./ye-dan-kuai-le.html</id><summary type="html">&lt;p&gt;耶誕快樂&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>期末心得</title><link href="./qi-mo-xin-de.html" rel="alternate"></link><published>2016-12-23T13:00:00+08:00</published><updated>2016-12-23T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2016-12-23:./qi-mo-xin-de.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;這學期學到了很多程式的指令 git clone git branch git add -A 等...... 雖然一開始都聽不太懂 可是後來就慢慢地跟上腳步 可是在把近端要推上去的時候 雖然是成功可是網誌卻都沒有更新.&lt;/p&gt;
+&lt;p&gt;這學期真的很謝謝老師用心的指導.&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>耶誕練習</title><link href="./ye-dan-lian-xi.html" rel="alternate"></link><published>2016-12-23T13:00:00+08:00</published><updated>2016-12-23T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:,2016-12-23:./ye-dan-lian-xi.html</id><summary type="html">&lt;p&gt;耶誕快樂&lt;/p&gt;
 
 
-&lt;p&gt;123
-&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
 &lt;script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
 &lt;/script&gt;
