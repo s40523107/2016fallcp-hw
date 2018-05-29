@@ -170,7 +170,7 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 &lt;!-- 啟動 Brython --&gt;
 
 &lt;script&gt;
-window.onload=function(){
+window.onload=function(){ 
 brython(1);
 }
 &lt;/script&gt;</content><category term="Brython"></category></entry><entry><title>W18旋轉動畫練習</title><link href="./w18xuan-zhuan-dong-hua-lian-xi.html" rel="alternate"></link><published>2017-01-06T13:00:00+08:00</published><updated>2017-01-06T13:00:00+08:00</updated><author><name>鄭佩宜</name></author><id>tag:None,2017-01-06:./w18xuan-zhuan-dong-hua-lian-xi.html</id><summary type="html">&lt;p&gt;單線旋轉動畫:&lt;/p&gt;
