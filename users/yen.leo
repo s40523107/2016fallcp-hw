@@ -174,6 +174,7 @@
 <v t="leo.20170112101056.1"><vh>@edit 20170104.md</vh></v>
 <v t="leo.20170112101216.1"><vh>@edit 20170106.md</vh></v>
 <v t="leo.20170117211010.1"><vh>@edit 20170117.md</vh></v>
+<v t=".20180529094943.1"><vh>@edit 20180529.md</vh></v>
 </v>
 </v>
 </v>
@@ -219,7 +220,6 @@ print("hello")
 <t tx="amd.20151216151325.1">@language xml
 @tabwidth -4
 @others
-
 </t>
 <t tx="amd.20160106093454.1"></t>
 <t tx="amd.20160106094754.1"></t>
@@ -235,7 +235,7 @@ print("hello")
 <t tx="amd.20161004083800.2">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;    
-2017 Spring 網際內容管理課程
+2016 Fall 計算機程式課程
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -277,9 +277,7 @@ print("hello")
             progress: true,
             history: true,
             center: true,
-
             transition: 'slide', // none/fade/slide/convex/concave/zoom
-
             // More info https://github.com/hakimel/reveal.js#dependencies
             dependencies: [
                 { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -558,7 +556,8 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="yen.20161011122932.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011122957.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -614,7 +613,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011125115.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011125115.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -632,7 +632,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011143808.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011143808.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -681,7 +682,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -932,7 +934,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1010,7 +1013,8 @@ make.start()
 * 上課筆記與心得寫在個人的 2016fallcp_hw 倉儲 Wiki 中
 * 利用 [ShareX](https://getsharex.com/) 錄製上課操作練習影片
 * 將影片加上說明字幕後, 上傳至個人 [Vimeo](https://vimeo.com/) 與 [Youtube](https://www.youtube.com)
-* 每週更新個人與分組的 Github Pages 投影片與網誌</t>
+* 每週更新個人與分組的 Github Pages 投影片與網誌
+</t>
 <t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
