@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2018-06-05T23:35:31-00:00</lastmod>
+<lastmod>2018-06-05T23:41:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2018-06-05T23:35:31-00:00</lastmod>
+<lastmod>2018-06-05T23:41:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2018-06-05T23:35:31-00:00</lastmod>
+<lastmod>2018-06-05T23:41:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2018-06-05T23:35:31-00:00</lastmod>
+<lastmod>2018-06-05T23:41:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,6 +41,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./chi-nie-he-jing-tai-hui-tu-25t.html</loc>
 <lastmod>2018-06-05T13:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./chi-nie-he-dong-tai-hui-tu-50tyu-25t.html</loc>
+<lastmod>2018-06-04T13:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
