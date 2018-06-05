@@ -5,41 +5,48 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2018-06-05T23:12:02-00:00</lastmod>
+<lastmod>2018-06-05T23:32:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2018-06-05T23:12:02-00:00</lastmod>
+<lastmod>2018-06-05T23:32:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2018-06-05T23:12:02-00:00</lastmod>
+<lastmod>2018-06-05T23:32:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2018-06-05T23:12:02-00:00</lastmod>
+<lastmod>2018-06-05T23:32:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2018-06-05T22:50:24+08:00</lastmod>
+<lastmod>2018-06-05T23:22:34+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./liang-chi-nie-he-jing-tai-hui-tu-50tyu-20t.html</loc>
+<loc>./chi-nie-he-jing-tai-hui-tu-25t.html</loc>
+<lastmod>2018-06-05T13:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./liang-chi-nie-he-jing-tai-hui-tu-50tyu-25t.html</loc>
 <lastmod>2018-05-29T13:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -54,7 +61,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/course.html</loc>
-<lastmod>2018-05-29T13:00:00+08:06</lastmod>
+<lastmod>2018-06-05T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,7 +75,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/brython.html</loc>
-<lastmod>2018-05-29T13:00:00+08:06</lastmod>
+<lastmod>2018-06-05T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,7 +110,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/40523107.html</loc>
-<lastmod>2018-05-29T13:00:00+08:06</lastmod>
+<lastmod>2018-06-05T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

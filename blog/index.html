@@ -278,7 +278,43 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="./liang-chi-nie-he-jing-tai-hui-tu-50tyu-20t.html">兩齒嚙合靜態繪圖(50t與20t)</a></h2>
+                <h2><a href="./chi-nie-he-jing-tai-hui-tu-25t.html">齒嚙合靜態繪圖(25t)</a></h2>
+                <div class="summary"><script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 繪圖-->
+
+<canvas id="onegear" width="800" height="600"></canvas>
+
+<div id="onegear_div" width="800" height="20"></div>
+
+<script type="text/python3">
+from browser import document as doc
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+    def create_line(self, x1, y1, x2, y2, width=3, fill …</script>
+                    <a class="btn btn-default btn-xs" href="./chi-nie-he-jing-tai-hui-tu-25t.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./liang-chi-nie-he-jing-tai-hui-tu-50tyu-25t.html">兩齒嚙合靜態繪圖(50t與25t)</a></h2>
                 <div class="summary"><script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
 
 <script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
@@ -307,7 +343,7 @@ import math
 # 主要用來取得畫布大小
 canvas = doc["gear1"]
 # 此程式採用 Cango …</script>
-                    <a class="btn btn-default btn-xs" href="./liang-chi-nie-he-jing-tai-hui-tu-50tyu-20t.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="./liang-chi-nie-he-jing-tai-hui-tu-50tyu-25t.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -331,8 +367,13 @@ canvas = doc["gear1"]
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./liang-chi-nie-he-jing-tai-hui-tu-50tyu-20t.html">
-                            兩齒嚙合靜態繪圖(50t與20t)
+                        <a href="./chi-nie-he-jing-tai-hui-tu-25t.html">
+                            齒嚙合靜態繪圖(25t)
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./liang-chi-nie-he-jing-tai-hui-tu-50tyu-25t.html">
+                            兩齒嚙合靜態繪圖(50t與25t)
                         </a>
                     </li>
                     <li class="list-group-item">
